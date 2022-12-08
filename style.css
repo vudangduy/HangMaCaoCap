@@ -1,7 +1,86 @@
 body{
-    background-color: rgb(0,0,0);
+    background: linear-gradient(white,yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-    h1{
-        color: white;
-        font-family: "Consolas";
+    .fa-house{
+        color: black;
+        position: absolute;
+        top: 30px;
+        position: fixed;
     }
+    #fb{
+        color: blue;
+        position: relative;
+        bottom: 50px;
+        left:330px;
+    }
+    #yt{
+        color:red;
+        position: relative;
+        bottom:50px;
+        left:360px;
+    }
+    #gg{
+        color:violet;
+        position: relative;
+        bottom: 50px;
+        left: 400px;
+    }
+    #fb:active{
+        color: grey;
+    }
+    #yt:active{
+        color: grey;
+    }
+    #gg:active{
+        color: grey;
+    }
+
+
+    h1{
+        font-family: "Consolas";
+        position: relative;
+        top:0px;
+        left: 30px;
+
+        text-shadow: 5px 5px 5px yellow, 0px -5px 5px red;
+
+    }
+
+    img{
+        border-style: outset;
+        border-width:1px;
+        border-radius: 10px;
+    }
+    #ao_comple_nam{
+        position: relative;
+        left:30px
+    }
+    #ao_vest_nu{
+        position: relative;
+        left: 60px;
+    }
+    #name1{
+        
+        position: absolute;
+        top: 450px;
+        left: 100px;
+    }
+    #name2{
+        
+        position: absolute;
+        top: 450px;
+        left: 380px;
+    }
+
+    .odd:visited{
+        color: black;
+    }
+    .odd:hover{
+        color: red;
+    }
+    .odd:active{
+        color: blue;
+    }
+
