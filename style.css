@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(white,yellow);
+    background: linear-gradient(red,blue);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -75,12 +75,12 @@ body{
     }
 
     .odd:visited{
-        color: black;
+        color: blue;
     }
     .odd:hover{
         color: red;
     }
     .odd:active{
-        color: blue;
+        color: black;
     }
 
